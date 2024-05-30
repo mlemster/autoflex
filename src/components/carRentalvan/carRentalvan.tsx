@@ -1,4 +1,4 @@
-import React from 'react';
+
 import CarCard from '../carCards/carCards';
 import './carRentalvan.scss'
 const carData = [

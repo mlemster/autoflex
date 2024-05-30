@@ -1,11 +1,10 @@
 // CarCard.tsx
-import React from 'react';
 import PropTypes from 'prop-types';
 import './carCards.scss';
 
 interface CarCardProps {
   imageSrc: string;
-  price: number;
+  price: any;
   description: string;
 }
 
