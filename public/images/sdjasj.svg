@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1771" height="1577.5" viewBox="0 0 1771 1577.5">
+  <defs>
+    <filter id="Rectangle_104">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood result="color"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur"/>
+      <feComposite operator="in" in="color"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+    <filter id="Line_4" x="12.5" y="187" width="1735" height="19" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_113">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-3"/>
+      <feFlood result="color-2"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur-3"/>
+      <feComposite operator="in" in="color-2"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_46" data-name="Group 46" transform="translate(-10785.5 -393)">
+    <g id="Rectangle_102" data-name="Rectangle 102" transform="translate(10786 1256)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="658" height="81" rx="31" stroke="none"/>
+      <rect x="0.5" y="0.5" width="657" height="80" rx="30.5" fill="none"/>
+    </g>
+    <g id="Rectangle_103" data-name="Rectangle 103" transform="translate(10786 1395)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="658" height="81" rx="33" stroke="none"/>
+      <rect x="0.5" y="0.5" width="657" height="80" rx="32.5" fill="none"/>
+    </g>
+    <text id="Enter_your_firstname" data-name="Enter your firstname" transform="translate(10807 1312)" font-size="38" font-family="ArialMT, Arial"><tspan x="0" y="0">Enter your firstname</tspan></text>
+    <text id="Enter_your_surname" data-name="Enter your surname" transform="translate(10807 1451)" font-size="38" font-family="ArialMT, Arial"><tspan x="0" y="0">Enter your surname</tspan></text>
+    <g id="Group_44" data-name="Group 44" transform="translate(6.5 -237)">
+      <g id="Group_42" data-name="Group 42" transform="translate(0 58)">
+        <g data-type="innerShadowGroup">
+          <rect id="Rectangle_104-2" data-name="Rectangle 104" width="1769" height="51" rx="25.5" transform="translate(10779 740)" fill="#fff"/>
+          <g transform="matrix(1, 0, 0, 1, 10779, 572)" filter="url(#Rectangle_104)">
+            <rect id="Rectangle_104-3" data-name="Rectangle 104" width="1769" height="51" rx="25.5" transform="translate(0 168)" fill="#fff"/>
+          </g>
+          <g id="Rectangle_104-4" data-name="Rectangle 104" transform="translate(10779 740)" fill="none" stroke="#707070" stroke-width="1">
+            <rect width="1769" height="51" rx="25.5" stroke="none"/>
+            <rect x="0.5" y="0.5" width="1768" height="50" rx="25" fill="none"/>
+          </g>
+        </g>
+        <g transform="matrix(1, 0, 0, 1, 10779, 572)" filter="url(#Line_4)">
+          <line id="Line_4-2" data-name="Line 4" x2="1717" transform="translate(21.5 193.5)" fill="none" stroke="#000" stroke-width="1"/>
+        </g>
+        <g id="Ellipse_1" data-name="Ellipse 1" transform="translate(10825 752)" fill="#fff" stroke="#707070" stroke-width="1">
+          <circle cx="14" cy="14" r="14" stroke="none"/>
+          <circle cx="14" cy="14" r="13.5" fill="none"/>
+        </g>
+        <text id="_1" data-name="1" transform="translate(10839 699)" font-size="38" font-family="ArialMT, Arial"><tspan x="0" y="0">1</tspan></text>
+        <text id="_14" data-name="14" transform="translate(12466 699)" font-size="38" font-family="ArialMT, Arial"><tspan x="0" y="0">14</tspan></text>
+        <text id="_7" data-name="7" transform="translate(11671 699)" font-size="38" font-family="ArialMT, Arial"><tspan x="0" y="0">7</tspan></text>
+      </g>
+      <g id="Rectangle_105" data-name="Rectangle 105" transform="translate(10779 891)" fill="#fff" stroke="#707070" stroke-width="1">
+        <rect width="658" height="76" rx="34" stroke="none"/>
+        <rect x="0.5" y="0.5" width="657" height="75" rx="33.5" fill="none"/>
+      </g>
+      <text id="Enter_car_ID" data-name="Enter car ID" transform="translate(10800 944)" font-size="38" font-family="ArialMT, Arial"><tspan x="0" y="0">Enter car ID</tspan></text>
+      <line id="Line_5" data-name="Line 5" x2="1758" y2="1" transform="translate(10790.5 630.5)" fill="none" stroke="#707070" stroke-width="1"/>
+      <text id="Use_the_slider_to_choose_how_many_days_the_vehicle_will_be_in_use." data-name="Use the slider to choose how many days the vehicle will be in use." transform="translate(10800 683)" font-size="38" font-family="ArialMT, Arial"><tspan x="0" y="0">Use the slider to choose how many days the vehicle will be in use.</tspan></text>
+      <g id="Rectangle_107" data-name="Rectangle 107" transform="translate(10779 1071)" fill="#fff" stroke="#707070" stroke-width="1">
+        <rect width="658" height="98" stroke="none"/>
+        <rect x="0.5" y="0.5" width="657" height="97" fill="none"/>
+      </g>
+      <text id="Total_price_of_you_rental" data-name="Total price of you rental" transform="translate(10800 1035)" font-size="38" font-family="ArialMT, Arial"><tspan x="0" y="0">Total price of you rental</tspan></text>
+      <text id="_000.000.000" data-name="$000.000.000" transform="translate(10800 1139)" font-size="38" font-family="ArialMT, Arial" opacity="0.51"><tspan x="0" y="0">$000.000.000</tspan></text>
+      <line id="Line_6" data-name="Line 6" x2="1758" y2="1" transform="translate(10792 1222)" fill="none" stroke="#707070" stroke-width="1"/>
+      <line id="Line_7" data-name="Line 7" x2="1758" y2="1" transform="translate(10784.5 2206)" fill="none" stroke="#707070" stroke-width="1"/>
+    </g>
+    <g id="Group_45" data-name="Group 45" transform="translate(0 -275)">
+      <g id="Rectangle_108" data-name="Rectangle 108" transform="translate(10786 1390)" fill="#fff" stroke="#707070" stroke-width="1">
+        <rect width="126" height="81" rx="31" stroke="none"/>
+        <rect x="0.5" y="0.5" width="125" height="80" rx="30.5" fill="none"/>
+      </g>
+      <g id="Rectangle_109" data-name="Rectangle 109" transform="translate(10975 1390)" fill="#fff" stroke="#707070" stroke-width="1">
+        <rect width="126" height="81" rx="31" stroke="none"/>
+        <rect x="0.5" y="0.5" width="125" height="80" rx="30.5" fill="none"/>
+      </g>
+      <g id="Rectangle_110" data-name="Rectangle 110" transform="translate(11164 1390)" fill="#fff" stroke="#707070" stroke-width="1">
+        <rect width="169" height="81" rx="31" stroke="none"/>
+        <rect x="0.5" y="0.5" width="168" height="80" rx="30.5" fill="none"/>
+      </g>
+      <text id="Jan" transform="translate(10819 1439)" font-size="38" font-family="ArialMT, Arial"><tspan x="0" y="0">Jan</tspan></text>
+      <text id="_00" data-name="00" transform="translate(11017 1446)" font-size="38" font-family="ArialMT, Arial"><tspan x="0" y="0">00</tspan></text>
+      <text id="_00:00" data-name="00:00" transform="translate(11201 1446)" font-size="38" font-family="ArialMT, Arial"><tspan x="0" y="0">00:00</tspan></text>
+      <text id="Enter_the_vehicle_retrieving_date" data-name="Enter the vehicle retrieving date" transform="translate(10792 1359)" font-size="38" font-family="ArialMT, Arial"><tspan x="0" y="0">Enter the vehicle retrieving date</tspan></text>
+    </g>
+    <g id="Rectangle_111" data-name="Rectangle 111" transform="translate(10786 1534)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="658" height="81" rx="31" stroke="none"/>
+      <rect x="0.5" y="0.5" width="657" height="80" rx="30.5" fill="none"/>
+    </g>
+    <text id="Enter_your_Email" data-name="Enter your Email" transform="translate(10807 1590)" font-size="38" font-family="ArialMT, Arial"><tspan x="0" y="0">Enter your Email</tspan></text>
+    <g id="Rectangle_112" data-name="Rectangle 112" transform="translate(10786 1673)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="658" height="81" rx="31" stroke="none"/>
+      <rect x="0.5" y="0.5" width="657" height="80" rx="30.5" fill="none"/>
+    </g>
+    <text id="Enter_you_phonenumber" data-name="Enter you phonenumber" transform="translate(10807 1729)" font-size="38" font-family="ArialMT, Arial"><tspan x="0" y="0">Enter you phonenumber</tspan></text>
+    <g data-type="innerShadowGroup">
+      <rect id="Rectangle_113-2" data-name="Rectangle 113" width="245" height="81" rx="31" transform="translate(10786 1848)" fill="#1919f6"/>
+      <g transform="matrix(1, 0, 0, 1, 10785.5, 393)" filter="url(#Rectangle_113)">
+        <rect id="Rectangle_113-3" data-name="Rectangle 113" width="245" height="81" rx="31" transform="translate(0.5 1455)" fill="#fff"/>
+      </g>
+      <g id="Rectangle_113-4" data-name="Rectangle 113" transform="translate(10786 1848)" fill="none" stroke="#707070" stroke-width="1">
+        <rect width="245" height="81" rx="31" stroke="none"/>
+        <rect x="0.5" y="0.5" width="244" height="80" rx="30.5" fill="none"/>
+      </g>
+    </g>
+    <text id="Rent" transform="translate(10868 1904)" font-size="38" font-family="ArialMT, Arial"><tspan x="0" y="0">Rent</tspan></text>
+  </g>
+</svg>

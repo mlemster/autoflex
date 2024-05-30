@@ -1,0 +1,54 @@
+#eula {
+    width: 100%;
+    height: fit-content;
+    padding: 150px;
+    background-color: rgb(41, 41, 41);
+    color: white;
+
+    h1 {
+        text-decoration: underline;
+        font-weight: bold;
+    }
+
+    h2 {
+        text-decoration: underline;
+    }
+
+    a {
+        color: rgb(56, 56, 255);
+        text-decoration: underline;
+    }
+}
+
+.eula-container {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+@media screen and (max-width:768px) {
+
+    #eula {
+        padding: 90px 40px;
+
+        h1 {
+            text-decoration: underline;
+            font-weight: bold;
+            font-size: 30px;
+        }
+
+        h2 {
+            text-decoration: underline;
+            font-size: 25px;
+        }
+
+        p {
+            font-size: 15px;
+            max-width: 95%;
+        }
+    }
+
+    .eula-container {
+        max-width: 90%;
+    }
+}

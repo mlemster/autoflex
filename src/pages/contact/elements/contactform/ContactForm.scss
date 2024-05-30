@@ -1,0 +1,190 @@
+#contact-home {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(17, 24, 39);
+}
+
+.contactform-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    overflow: hidden;
+}
+
+.contactform-items-right {
+    display: flex;
+    flex-direction: column;
+    gap: 150px;
+    width: 50%;
+    height: 100%;
+    margin-top: 60px;
+    padding: 50px;
+}
+
+.contactform-items-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+
+.contactform {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 750px;
+    background-color: rgb(31, 41, 55);
+    border-radius: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contactform-content {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    gap: 25px;
+    overflow: hidden;
+
+    h1 {
+        font-size: 45px;
+        color: #fff;
+    }
+
+    button {
+        align-items: start;
+        width: 140px;
+        height: 45px;
+        border-radius: 25px;
+        background-color: #0033FF;
+        font-size: 20px;
+        color: white;
+        border: none;
+    }
+}
+
+.contactform-query {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+
+
+    input,
+    textarea {
+        height: 40px;
+        padding: 10px;
+        font-size: 18px;
+        max-width: 100%;
+        border-radius: 5px;
+        overflow: hidden;
+        font-family: Helvetica;
+    }
+
+    label {
+        overflow: hidden;
+        font-size: 16px;
+        color: rgb(156, 159, 171);
+    }
+}
+
+.message textarea {
+    height: 125px;
+    vertical-align: top;
+    resize: none;
+}
+
+
+.message input {
+    height: 125px;
+    vertical-align: top;
+}
+
+
+
+.contactform-header {
+    overflow: hidden;
+}
+
+.contact-info {
+    font-size: 25px;
+    color: #0033FF;
+
+    p {
+        color: #fff;
+    }
+
+    h1 {
+        color: #fff;
+    }
+}
+
+.maps-style {
+    border: 0;
+    outline: 0;
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .mapholder {
+        padding: 30px;
+    }
+
+    .contactform-container {
+        flex-direction: column;
+    }
+
+    #contact-home {
+        height: fit-content;
+    }
+
+    .contactform-content {
+        width: 100%;
+        margin: 15px;
+    }
+
+    .contactform {
+        width: 100%;
+        margin: 85px 25px 0 25px;
+    }
+
+    .contactform-items-left {
+        width: 100%;
+    }
+
+    .contactform-query {
+
+        input {
+            width: calc(100% - 120px);
+        }
+
+        textarea {
+            width: calc(100% - 120px);
+
+        }
+    }
+
+    .contactform-items-right {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 0;
+        gap: 75px;
+
+
+        .maps-style {
+            width: 400px;
+            height: auto;
+            margin: 30px;
+        }
+    }
+
+}

@@ -1,0 +1,136 @@
+/* Footer.css */
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0A0A0A;
+  color: #fff;
+  padding: 20px 350px;
+}
+
+.footer-left,
+.footer-middle,
+.footer-right {
+  flex: 1;
+}
+
+.social-icon {
+  margin-right: 10px;
+  /* Adjust the spacing between social icons as needed */
+}
+
+.contact,
+.footer-links,
+.footer-socials {
+  height: 166px;
+  top: 0;
+}
+
+.footer-links,
+.contact {
+
+  a {
+    text-decoration: underline;
+  }
+}
+
+
+@media screen and (max-width: 1320px) {
+
+  .footer {
+    padding: 10px 130px;
+  }
+
+}
+
+
+
+@media screen and (max-width: 1000px) {
+
+  .footer {
+    padding: 10px 60px;
+  }
+
+}
+
+@media only screen and (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+    text-align: center;
+    padding: 10px 60px;
+  }
+
+  .footer-left,
+  .footer-middle,
+  .footer-right {
+    flex: none;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .contact,
+  .footer-links,
+  .footer-socials {
+    height: 190px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer-left,
+  .footer-middle,
+  .footer-right {
+    margin-bottom: 10px;
+    /* Adjust the gap between the three parts */
+  }
+
+  .footer-links a:last-child,
+  .footer-socials a:last-child,
+  .contact p:last-child {
+    margin-bottom: 15px;
+    /* Remove margin-bottom for the last child in each column */
+  }
+}
+
+/* App.css or your main stylesheet */
+.app-container {
+  max-width: 1200px;
+  /* Adjust the maximum width as needed */
+  margin: 0 auto;
+  /* Center the container */
+}
+
+.container {
+  position: relative;
+  /* Add any other styles for your container */
+}
+
+.footer-logo {
+  width: 150px;
+  height: auto;
+}
+
+.contact,
+.footer-links,
+.footer-socials {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  /* Adjust the gap between child elements in each section */
+}
+
+.footer-icon {
+  color: white;
+  height: 30px;
+  width: auto;
+}
+
+.footer-socials {
+  display: flex;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}

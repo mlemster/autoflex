@@ -1,0 +1,94 @@
+.car-card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  /* Adjust the max-width to make the card bigger */
+  margin: 40px auto 20px auto;
+  /* Adjust the margin to center the card and add margin to the top */
+  text-align: center;
+  font-family: arial;
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+  /* Ensure content stays within the card */
+  padding: 20px;
+  /* Add padding to leave space inside the card */
+  background-image: url('path/to/your/image.jpg');
+  /* Replace 'path/to/your/image.jpg' with the actual path to your background image */
+  background-size: cover;
+  /* Ensure the background image covers the entire card */
+  background-position: center;
+  /* Center the background image */
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Assuming you have an image element with the class .car-image */
+.cardkuva {
+  max-width: 100%;
+  /* Ensure the image doesn't exceed the card width */
+  height: 250px;
+  width: 100%;
+  /* Maintain aspect ratio */
+  border-radius: 10px;
+  /* Add border-radius to match the card */
+}
+
+.card:after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: #000;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+  border-radius: 0 0 10px 10px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+
+.texti {
+  font-size: 14px;
+  padding: 20px 0;
+}
+
+
+.car-card {
+
+
+  button {
+    background-color: #001f3f;  // Dark blue color
+    color: #fff;  // White text color
+    border-radius: 10px;  // Rounded corners
+    padding: 10px 20px;  // Adjust padding as needed
+    text-decoration: none;  // Remove underline from the link
+    display: inline-block;  // Ensures the button behaves like a block element
+    bottom: 0;
+
+    &:hover {
+      background-color: #003366;  // Darker blue color on hover
+      cursor: pointer;
+    }
+  }
+}
