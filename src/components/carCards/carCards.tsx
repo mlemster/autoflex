@@ -4,7 +4,7 @@ import './carCards.scss';
 
 interface CarCardProps {
   imageSrc: string;
-  price: any;
+  price: string;
   description: string;
 }
 
